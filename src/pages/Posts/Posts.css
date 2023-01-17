@@ -1,0 +1,206 @@
+.general-container-post {
+    /* background-color: rgba(255, 0, 0, 0.432); */
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas:  "div1-post" 
+                          "div2-post"
+                          "div3-post";
+}
+
+
+.div1-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: div1-post;
+}
+
+.div2-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    overflow-y: scroll;
+    grid-area: div2-post;
+}
+
+.div3-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    overflow-y: scroll;
+    grid-area: div3-post;
+}
+
+.div1-container-post {
+    /* background-color: rgba(255, 0, 0, 0.432); */
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 70% 20%;
+    grid-template-rows: 100%;
+    grid-template-areas:  "Logo-post title-post user-post" ;
+    background-color: rgba(13, 90, 190, 0.5);
+    border-radius: 20px;
+}
+
+.logo-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: Logo-post;
+    height: 80%;
+    margin: 5%;
+}
+
+.title-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: title-post;
+    height: 80%;
+    margin: 5%;
+    font-size: 5vh;
+    color: white;
+}
+
+.user-post {
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    /* background-color: rgba(255, 0, 0, 0.432);  */
+    grid-area: user-post;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    font-size: 3vh;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas:  "Logo-space-post name-space-post" ;
+}
+
+.Logo-space-post {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: Logo-space-post;
+    height: 80%;
+    margin: 1%;
+    color: white;
+}
+
+.name-space-post {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: name-space-post;
+    height: 80%;
+    margin: 1%;
+    color: white;
+}
+
+.img-logo-post{
+    height: 10vh;
+}
+
+.imgRedonda-post {
+    width:80px;
+    height:80px;
+    border-radius:40px;
+    border:5px solid rgb(253, 253, 253);
+}
+
+.general-container-post-button {
+    /* background-color: rgba(255, 0, 0, 0.432); */
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas:  "div1-post-b div2-post-b div3-post-b";
+}
+
+.div1-post-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: div1-post-b;
+}
+
+.div2-post-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    grid-area: div2-post-b;
+}
+
+.div3-post-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    grid-area: div3-post-b;
+}
+
+.ant-modal-content {
+    width: 44vw !important;
+    height: 100% !important;
+    margin-top: 2vh !important;
+}
+
+.ant-modal-title{
+    font-size: large !important;
+    text-align: center !important;
+    font-weight: bolder !important;
+}
+
+.ant-modal-body {
+    height: min-content!important;
+}
+
+.comments-container {
+    /* background-color: rgba(255, 0, 0, 0.432); */
+    display: grid;
+    width: 100%;
+    margin-top: 1vh;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+    grid-template-areas:  "comment-image-user comment-user";
+    overflow: scroll;
+}
+
+.comment-image-user {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    grid-area: comment-image-user;
+}
+
+.comment-user {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    grid-area: comment-user;
+}
+
+.image-comment-post {
+    width:80px !important;
+    height:80px !important;
+    margin-top: 2vh !important;
+    margin: auto !important;
+    border-radius:50px !important;
+    border:5px solid rgb(253, 253, 253) !important;
+}

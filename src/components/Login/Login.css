@@ -1,0 +1,66 @@
+.btn-keyboard {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent !important;
+    border: 2px solid #000000 !important;
+    border-radius: 0.6em !important;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1 !important;
+    margin: 20px !important;
+    padding: 1.2em 2.8em !important;
+    text-decoration: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    height: 80% !important;
+    width: 60% !important;
+    margin: 5% !important;
+  }
+
+  .btn-keyboard:hover, .btn-keyboard:focus {
+    color: #fff !important;
+    outline: 0 !important;
+    background: rgb(67,162,10) !important;
+    background: linear-gradient(90deg, rgba(67,162,10,0.5) 2%, rgba(0,221,7,0.5) 7%, rgba(0,255,167,0.5) 34%) !important; 
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    grid-template-areas:  "logo text";
+  }
+
+  .logo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: logo;
+  }
+
+  .text-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: text;
+  }
+
+  .size-icon{
+    width: 6vw;
+    height: 4vh;
+  }

@@ -1,0 +1,63 @@
+.btn-keyboard-logout {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent !important;
+    border: 2px solid transparent !important;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1 !important;
+    padding-top: 1.2em !important;
+    margin-left: 0.7vw;
+    text-decoration: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 700 !important;
+    height: max-content !important;
+    width: 60% !important;
+  }
+
+  .button-container-logout {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    grid-template-areas:  "logo text";
+    height: 1vh;
+    margin-top: 0;
+  }
+
+  .logo-button-logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    grid-area: logo;
+  }
+
+  .text-button-logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    /* background-color: gray; */
+    grid-area: text;
+    padding-left: 0.8vw;
+    color: white;
+  }
+
+  .size-icon-logout{
+    width: 6vw;
+    height: 4vh;
+    color: white;
+  }
