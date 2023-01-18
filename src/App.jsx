@@ -14,7 +14,7 @@ import 'antd/dist/antd.css';
 
 function App() {
 
-  document.title = 'COVID APP';
+  document.title = 'MONK TEST';
   return (
     <div className="principal-container">
       <Provider store={store}>
