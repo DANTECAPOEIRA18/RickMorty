@@ -32,7 +32,7 @@ function LoginView() {
           <div className="div1-container">
             <div className="container-login login-container">
               <div className="title">
-                COVID ESTADISTICAS
+                RICK & MORTY
               </div>
               <div className="logo">
                 <img src={logo} alt="logo3" className="img-logo" />
